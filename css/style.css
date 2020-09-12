@@ -90,7 +90,7 @@ body{
 .shark{
     position: absolute;
     content: '';
-    left: -66px;
+    left: -6px;
     bottom: -32px;
     z-index: 1;
 }
@@ -119,7 +119,7 @@ body{
     width: 100px;
     height: 100px;
     bottom: 65px;
-    left: 428px;
+    left: 500px;
 }
 
 .text__fish{
@@ -137,7 +137,7 @@ body{
     font-size: 20px;
     color: rgb(255, 208, 0);
     bottom: 142px;
-    left: 530px;
+    left: 595px;
 }
 
 .header__text-bottom{
@@ -157,6 +157,7 @@ body{
 
 .dev{
     float: left;
+    margin-right: 10px;  
 }
 
 .devil{
@@ -166,12 +167,13 @@ body{
 
 .fsh{
     float: right;
+    margin-left: 10px;
     margin-top: 275px;
 }
 
 .fish-1{
    width: 250px;
-   /* float: left; */
+  
 }
 
 
@@ -188,7 +190,7 @@ body{
     text-align: center;
 }
 
-.wrapper{
-    display: flex;
-    justify-content: start;
+.text__level-1{
+    margin-top: 50px;
+    text-align: justify;
 }
