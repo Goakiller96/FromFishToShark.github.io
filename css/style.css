@@ -176,6 +176,10 @@ body{
   
 }
 
+.text__level-1{
+    margin-top: 50px;
+    text-align: justify;
+}
 
 /* FOOTER */
 
@@ -190,7 +194,3 @@ body{
     text-align: center;
 }
 
-.text__level-1{
-    margin-top: 50px;
-    text-align: justify;
-}
