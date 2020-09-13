@@ -130,6 +130,17 @@ body{
     left: 500px;
 }
 
+.cards{
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 200px;
+    left: 45%;
+    top: 50%;
+
+}
+
+
 .text__fish{
     position: absolute;
     content: '';
