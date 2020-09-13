@@ -26,6 +26,14 @@ h2{
     text-align: center;
 }
 
+h3{
+    margin-top: 16px;
+}
+
+span{
+    color: red;
+    font-weight: 600;
+}
 
 body{
     color: #505050;
@@ -151,7 +159,7 @@ body{
 }
 
 .section-1{
-    min-height: 890px;
+    min-height: 750px;
     background: rgba(183, 238, 231, 0.507);
 }
 
@@ -178,8 +186,22 @@ body{
 
 .text__level-1{
     margin-top: 50px;
+    padding-bottom: 30px;
     text-align: justify;
 }
+
+.text__level-1 p{
+    color: #505050;
+    line-height: 24px;
+
+    margin-top: 15px;
+}
+
+.text__level-1 span{
+    color: crimson;
+}
+
+
 
 /* FOOTER */
 
@@ -187,7 +209,7 @@ body{
 .footer{
     background: rgb(90, 198, 241);
     height: 60px;
-    width: 100%;
+    width: 100%;  
 }
 
 .footer__text{
