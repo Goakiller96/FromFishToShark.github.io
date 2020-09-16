@@ -72,7 +72,7 @@ body{
     width: 325px;
     height: 300px;
     bottom: 122px;
-    right: 104px;
+    right: 50px;
 }
 
 .header__text{
@@ -105,14 +105,14 @@ body{
     z-index: 1;
 }
 
-.arrow-1{
+/* .arrow-1{
     position: absolute;
     content: '';
     width: 100px;
     height: 100px;
     bottom: 295px;
     right: 410px;
-}
+} */
 
 .arrow-3{
     position: absolute;
@@ -120,7 +120,7 @@ body{
     width: 100px;
     height: 100px;
     bottom: 255px;
-    right: 410px;
+    right: 350px;
 }
 
 .arrow-2{
@@ -148,7 +148,7 @@ body{
     font-size: 20px;
     color: rgb(255, 208, 0);
     bottom: 340px;
-    right: 470px;
+    right: 405px;
 }
 
 .text__shark{
@@ -231,3 +231,169 @@ body{
     text-align: center;
 }
 
+
+@media (max-width: 1190px){
+    .shark{
+        width: 300px;
+        height: 300px;
+        bottom: -19px;
+    }
+    .fish{
+        width: 250px;
+        height: 250px;
+        bottom: 50px;
+    }
+    .cards{
+        width: 180px;
+        height: 180px;
+    }
+    .arrow-3{
+        position: absolute;
+    content: '';
+    width: 75px;
+    height: 75px;
+    bottom: 155px;
+    right: 280px;
+    }
+    .arrow-2{
+    position: absolute;
+    content: '';
+    width: 75px;
+    height: 75px;
+    bottom: 120px;
+    left: 320px;
+    }
+    .text__fish{
+    bottom: 220px;
+    right: 325px;
+    font-size: 16px;
+    }
+    .text__shark{
+        bottom: 162px;
+        left: 395px;
+        font-size: 16px;
+    }
+    .header__text-bottom{
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 900px){
+    .shark{
+        width: 250px;
+        height: 250px;
+        bottom: -16px;
+    }
+    .fish{
+        width: 200px;
+        height: 200px;
+        bottom: 35px;
+        right: 20px;
+    }
+    .cards{
+        width: 200px;
+        height: 200px;
+    }
+    .arrow-3{
+    width: 50px;
+    height: 50px;
+    bottom: 125px;
+    right: 225px;
+    }
+    .arrow-2{
+    width: 50px;
+    height: 50px;
+    bottom: 55px;
+    left: 265px;
+    }
+    .text__fish{
+    bottom: 170px;
+    right: 250px;
+    font-size: 14px;
+    }
+    .text__shark{
+        bottom: 85px;
+        left: 315px;
+        font-size: 16px;
+    }
+    .header__text-bottom{
+        font-size: 20px;
+    }
+    .header__text{
+        font-size: 22px;
+    }
+    .header__text-1{
+        font-size: 20px;
+    }
+    .header__maintext{
+        font-size: 20px;
+    }
+        .header__maintext-2{
+            font-size: 20px;
+        }
+}
+
+
+
+
+@media (max-width: 670px){
+    .shark{
+        width: 200px;
+        height: 200px;
+        bottom: -13px;
+    }
+    .fish{
+        width: 150px;
+        height: 150px;
+        bottom: 30px;
+        right: 10px;
+    }
+    .cards{
+        width: 150px;
+        height: 150px;
+    }
+    .arrow-3{
+    width: 50px;
+    height: 50px;
+    bottom: 80px;
+    right: 145px;
+    }
+    .arrow-2{
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    left: 190px;
+    }
+    .text__fish{
+    bottom: 110px;
+    right: 170px;
+    font-size: 14px;
+    }
+    .text__shark{
+        bottom: 50px;
+        left: 245px;
+        font-size: 16px;
+    }
+    .header__text-bottom{
+        font-size: 20px;
+    }
+    .header__text{
+        font-size: 22px;
+    }
+    .header__text-1{
+        font-size: 20px;
+    }
+    .header__maintext{
+        font-size: 20px;
+    }
+        .header__maintext-2{
+            font-size: 20px;
+        }
+        .header__text-bottom{
+            right: 50px;
+            bottom: 5px;
+            font-size: 18px;
+        }
+}
