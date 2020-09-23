@@ -224,12 +224,69 @@ body{
 .footer{
     background: rgb(90, 198, 241);
     height: 60px;
-    width: 100%;  
+    width: 100%; 
+    margin-top: 30px; 
 }
 
-.footer__text{
-    text-align: center;
+.logo__footer{
+    width:50px;
+    height: 50px;
 }
+
+.footer__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* LEVEL 2 */
+
+.section-2{
+    min-height: 750px;
+}
+
+
+.block__one{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.photo-crab{
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+}
+
+.block__text{
+    max-width: 700px;
+    text-align: justify;
+}
+
+.block__two{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.photo-fish-2{
+    width: 220px;
+    height: 190px;
+}
+
+.photo-fire{
+    width: 250px;
+    height: 250px;
+}
+
+.photo__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 
 
 @media (max-width: 1190px){
@@ -276,9 +333,35 @@ body{
     .header__text-bottom{
         font-size: 20px;
     }
+    .photo-crab{
+        width: 200px;
+        height: 200px;
+    }
+    .photo-fish-2{
+        width: 200px;
+        height: 200px;
+    }
+    .block__text{
+        max-width: 600px;
+        text-align: justify;
+    }
 }
 
-
+@media (max-width: 984px){
+    .photo-crab{
+        width: 150px;
+        height: 150px;
+    }
+    .photo-fish-2{
+        width: 150px;
+        height: 150px;
+    }
+   
+    .block__text{
+        max-width: 550px;
+        text-align: justify;
+    }
+}
 
 @media (max-width: 900px){
     .shark{
@@ -333,7 +416,27 @@ body{
         .header__maintext-2{
             font-size: 20px;
         }
+        .photo-crab{
+            width: 150px;
+            height: 150px;
+        }
+        .photo-fish-2{
+            width: 150px;
+            height: 150px;
+        }
+        .photo-fire{
+            width: 200px;
+            height: 200px;
+        }
+        .block__text{
+            max-width: 550px;
+            text-align: justify;
+        }
+        h3{
+            font-size: 14px;
+        }
 }
+
 
 
 
@@ -396,4 +499,24 @@ body{
             bottom: 5px;
             font-size: 18px;
         }
+        .photo-crab{
+            width: 150px;
+            height: 150px;
+        }
+        .photo-fish-2{
+            width: 150px;
+            height: 150px;
+        }
+        .photo-fire{
+            width: 150px;
+            height: 150px;   
+        }
+        .block__text{
+            max-width: 550px;
+            text-align: justify;
+        }
+        h3{
+            font-size: 14px;
+        }
 }
+
