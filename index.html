@@ -135,10 +135,57 @@ E-mail: Promplazma@mail.ru">
         <div class="block__one">
           <div class="block__text">
             <h3>1) Можем ли мы делать ставку на тёрне?</h3><br>
+            <button title="Click to show/hide content" type="button"
+              onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Показать/Скрыть</button><br>
+            <div id="spoiler" style="display:none">
+              SB: $10.77 (107.7 bb)<br>
+              BB: $2.44 (24.4 bb)<br>
+              MP: $10.84 (108.4 bb)<br>
+              CO: $10 (100 bb)<br>
+              Hero (BTN): $12.19 (121.9 bb)<br>
+
+              Preflop: Hero is BTN with As 8s<br>
+              2 folds, Hero raises to $0.3, 1 fold, BB calls $0.2<br>
+
+              Flop: ($0.65) 8h 3s 4h (2 players)<br>
+              BB checks, Hero bets $0.45, BB calls $0.45<br>
+
+              Turn: ($1.55) 6c (2 players)<br>
+              BB checks, Hero bets $1.69, BB calls $1.69<br>
+
+              При условии, что:<br>
+              Спектр колла оппонента на флопе:<br>
+              99-33,A8s,98s,87s,65s,54s,KhJh,QhJh,AhTh,KhTh,QhTh,JhTh,Ah9h,Th9h,Ah7h,Ah6h,7h6h,Ah5h,Ah3h,Ah2h<br>
+              Спектр колла оппонента на терне:<br>
+              88,66-33,A8s,87s,65s,54s,KhJh,QhJh,AhTh,KhTh,QhTh,JhTh,Ah9h,Th9h,Ah7h,Ah6h,7h6h,Ah5h,Ah3h,Ah2h</div>
+
             Да, мы можем делать ставку на терне, т.к. эквити нашей руки против эквити спектра оппонента - 52,3%. И это
             будет ставка на велью.
 
             <h3>2) Можем ли мы сделать ставку на флопе?</h3><br>
+            <button title="Click to show/hide content" type="button"
+              onclick="if(document.getElementById('spoiler1') .style.display=='none') {document.getElementById('spoiler1') .style.display=''}else{document.getElementById('spoiler1') .style.display='none'}">Показать/Скрыть</button><br>
+            <div id="spoiler1" style="display:none">
+              SB: $5.46 (54.6 bb)<br>
+              BB: $5.74 (57.4 bb)<br>
+              Hero (UTG+1): $10 (100 bb)<br>
+              UTG+2: $5.69 (56.9 bb)<br>
+              MP1: $7.53 (75.3 bb)<br>
+              MP2: $10 (100 bb)<br>
+              MP3: $10 (100 bb)<br>
+              CO: $14.70 (147 bb)<br>
+              BTN: $17.82 (178.2 bb)<br>
+
+              Preflop: Hero is UTG+1 with Ad Jc<br>
+              Hero raises to $0.30, 7 folds, BB calls $0.2<br>
+
+              Flop: ($0.65) 9c 8h 4d (2 players)<br>
+              BB checks, Hero bets $0.40, BB folds<br>
+
+              При условии, что:<br>
+              Спектр колла оппонента на префлопе: 99-22,JTs,T9s,98s,87s,76s,65s,54s<br>
+              На флопе он продолжит с таким диапазоном: 99-88,44,JTs,T9s,98s,87s,76s</div>
+
             Да, мы можем ставить. Мы не попали в доску, эквити нашей руки составляет всего 23% против диапазона
             соперника. Ставить на вэлью мы
             не можем. Но, мы можем рассмотреть ставку в блеф, для которой при ставке 0.4 в банк 0.65 нам нужно
@@ -167,6 +214,29 @@ E-mail: Promplazma@mail.ru">
           </div>
           <div class="block__text">
             <h3>3) Можем ли мы коллировать ставку оппонента на тёрне?</h3><br>
+            <button title="Click to show/hide content" type="button"
+              onclick="if(document.getElementById('spoiler2') .style.display=='none') {document.getElementById('spoiler2') .style.display=''}else{document.getElementById('spoiler2') .style.display='none'}">Показать/Скрыть</button><br>
+            <div id="spoiler2" style="display:none">
+              SB: $13.14 (131.4 bb)<br>
+              BB: $10.92 (109.2 bb)<br>
+              UTG+1: $11.29 (112.9 bb)<br>
+              UTG+2: $12.64 (126.4 bb)<br>
+              MP1: $4.79 (47.9 bb)<br>
+              MP2: $8.95 (89.5 bb)<br>
+              MP3: $9.70 (97 bb)<br>
+              CO: $10 (100 bb)<br>
+              Hero (BTN): $10.06 (100.6 bb)<br>
+
+              Preflop: Hero is BTN with Ts Js<br>
+              3 folds, MP2 raises to $0.30, 2 folds, Hero calls $0.30, 2 folds<br>
+
+              Flop: ($0.75) 3c Qs 9: (2 players)<br>
+              MP2 bets $0.36, Hero calls $0.36<br>
+
+              Turn: ($1.47) 7c (2 players)<br>
+              MP2 bets $0.50, Hero calls $0.50</div>
+
+
             У нас 8 аутов на стрит:<br>
             Наши оддсы >> 8*2+2%=18%<br>
             Наши пот оддсы >> 0.5/1.47+0.5=20%<br>
@@ -174,6 +244,25 @@ E-mail: Promplazma@mail.ru">
 
 
             <h3>4) Какую сумму нам нужно добрать с оппонентов на тёрне?</h3><br>
+            <button title="Click to show/hide content" type="button"
+              onclick="if(document.getElementById('spoiler3') .style.display=='none') {document.getElementById('spoiler3') .style.display=''}else{document.getElementById('spoiler3') .style.display='none'}">Показать/Скрыть</button><br>
+            <div id="spoiler3" style="display:none">
+              Hero (SB): $12.85 (128.5 bb)<br>
+              BB: $4.27 (42.7 bb)<br>
+              UTG+1: $10 (100 bb)<br>
+              UTG+2: $15.96 (159.6 bb)<br>
+              MP1: $36.78 (367.8 bb)<br>
+              MP2: $8.88 (88.8 bb)<br>
+              MP3: $20.72 (207.2 bb)<br>
+              CO: $10.05 (100.5 bb)<br>
+              BTN: $18.76 (187.6 bb)<br>
+
+              Preflop: Hero is SB with 6s 7s<br>
+              2 folds, MP1 calls $0.10, MP2 calls $0.10, MP3 folds, CO calls $0.10, BTN folds, Hero completes, BB
+              checks<br>
+
+              Flop: ($0.50) Kc 4s 8s (5 players)<br>
+              Hero checks, BB checks, MP1 checks, MP2 bets $0.50, CO calls $0.50, Hero calls $0.50, 2 folds</div>
             У нас 9 аутов на флэш и 3 на стрит, итого - 12 аутов<br>
             Наши оддсы >> 12*2+2%=26%<br>
             Наши пот оддсы >> 0.5/1.5+0.5=25%<br>
@@ -208,7 +297,7 @@ E-mail: Promplazma@mail.ru">
 
   </footer>
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </body>
 
 </html>
