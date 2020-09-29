@@ -316,6 +316,7 @@ body{
     width: 400px;
     height: 300px;
     float: right;
+    box-shadow: 0px 10px 15px 10px #000;
 }
 
 .block__text-3{
