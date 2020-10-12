@@ -313,8 +313,9 @@ body{
 }
 
 .photo__mem{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
+    margin-left: 30px;
     float: right;
     box-shadow: 0px 10px 15px 10px #000;
 }
@@ -326,6 +327,33 @@ body{
 .numbers__lesson-3{
     color: #000;
 }
+
+
+
+.block__four-links{
+    margin-left: 70px;
+}
+
+.block__four-links li a{
+    color: crimson;
+}
+
+.block__four-warmup{
+    margin-left: 70px;
+}
+
+.block__four-warmup li{
+    list-style: initial ;
+}
+
+.block__four-plan{
+    margin-left: 70px;
+}
+
+.block__four-plan li{
+    list-style: initial ;
+}
+
 
 
 
