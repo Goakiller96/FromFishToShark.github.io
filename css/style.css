@@ -355,6 +355,93 @@ body{
 }
 
 
+.pages{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    padding:0 5px;
+  }
+
+  .previous:hover{
+    background-color: rgb(176, 226, 222);
+    transition: 0.5s;
+}
+  
+  .next {
+    background-color: #f1f1f1;
+    color: black;
+    padding:0 5px;
+  }
+
+  .next:hover{
+    background-color: rgb(176, 226, 222);
+    transition: 0.5s;
+}
+  
+  .round {
+    border-radius: 50%;
+    padding:6px 14px;
+    margin: 0 5px;
+  }
+
+
+/* LEVEL 5 */
+
+.list__lesson-5{
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.chapter-1{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.content__lesson-5{
+    margin-top: 40px;
+}
+
+.table-5{
+    margin: 40px  auto;
+    width: 1000px;
+}
+
+.vpip{
+    float: right;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 1190px){
@@ -428,6 +515,11 @@ body{
     .block__text{
         max-width: 550px;
         text-align: justify;
+    }
+
+    .photo__mem{
+        width: 250px;
+        height: 200px;
     }
 }
 
@@ -503,8 +595,11 @@ body{
         h3{
             font-size: 14px;
         }
+        .photo__mem{
+            width: 200px;
+            height: 150px;
+        }
 }
-
 
 
 
