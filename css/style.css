@@ -418,21 +418,43 @@ body{
 }
 
 
+.diapazony__img-1{
+    width: 250px;
+    height: 250px;
+}
+
+.diapazony__img-2{
+    width: 250px;
+    height: 250px;
+}
 
 
+.lesson-5__wrapper{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+
+.diapazony{
+    display: flex;
+}
 
 
+.graf-1{
+    display: flex;
+    display: table-column;
+}
 
+.graf-2{
+    display: flex;
+    display: table-column;
+}
 
-
-
-
-
-
-
-
-
-
+.player{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
 
 
 
