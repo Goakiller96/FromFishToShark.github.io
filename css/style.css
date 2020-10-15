@@ -443,6 +443,7 @@ body{
 .graf-1{
     display: flex;
     display: table-column;
+    margin-left: 5px;
 }
 
 .graf-2{
@@ -543,6 +544,19 @@ body{
         width: 250px;
         height: 200px;
     }
+    .table{
+        width: 600px;
+        height: 300px;
+    }
+    .diapazony__img-1{
+        width: 150px;
+        height: 150px;
+    }
+    .diapazony__img-2{
+        width: 150px;
+        height: 150px;
+    }
+    
 }
 
 @media (max-width: 900px){
@@ -621,7 +635,19 @@ body{
             width: 200px;
             height: 150px;
         }
-}
+        .table{
+            width: 600px;
+            height: 300px;
+        }
+        .diapazony__img-1{
+            width: 150px;
+            height: 150px;
+        }
+        .diapazony__img-2{
+            width: 150px;
+            height: 150px;
+        }
+       
 
 
 
@@ -702,6 +728,10 @@ body{
         }
         h3{
             font-size: 14px;
+        }
+        .table{
+            width: 400px;
+            height: 200px;
         }
 }
 
