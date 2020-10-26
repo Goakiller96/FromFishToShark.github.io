@@ -458,6 +458,50 @@ body{
 }
 
 
+/* LEVEL 6 */
+
+.section-6{
+    min-height: 750px;
+    background: rgba(183, 238, 231, 0.507);
+}
+
+.small_block{
+    width: 840px;
+    height: 420px;
+    /* box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1); */
+    margin: 0 auto;
+    padding: 30px;
+    margin-bottom: 30px;
+    background: rgba(255, 254, 206, 0.959);
+    box-shadow: 0 0 40px rgba(0, 0, 0, .2) inset;
+    text-align: justify;
+}
+
+
+.header__lesson-6{
+    text-align: center;
+    
+}
+
+.block-1__text{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
